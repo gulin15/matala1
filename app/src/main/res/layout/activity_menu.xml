@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/menu_background">
+
+    <TextView
+        android:id="@+id/menu_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Avoid The Cameras"
+        android:textColor="@color/text_color"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/menu_BTN_slow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_LBL_title"
+        android:layout_marginTop="50dp"
+        android:text="Slow Mode (Buttons)"
+        android:backgroundTint="#424242"
+        android:textColor="@color/text_color" />
+
+    <Button
+        android:id="@+id/menu_BTN_fast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_BTN_slow"
+        android:layout_marginTop="16dp"
+        android:text="Fast Mode (Buttons)"
+        android:backgroundTint="#424242"
+        android:textColor="@color/text_color" />
+
+    <Button
+        android:id="@+id/menu_BTN_sensors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_BTN_fast"
+        android:layout_marginTop="16dp"
+        android:text="Sensor Mode"
+        android:backgroundTint="#424242"
+        android:textColor="@color/text_color" />
+
+    <Button
+        android:id="@+id/menu_BTN_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_BTN_sensors"
+        android:layout_marginTop="40dp"
+        android:text="Records Table"
+        android:textSize="16sp"
+        android:backgroundTint="#37474F"
+        android:textColor="@color/text_color" />
+
+    <Button
+        android:id="@+id/menu_BTN_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="START GAME"
+        android:textSize="18sp"
+        android:backgroundTint="#FF9800"
+        android:textColor="@color/text_color" />
+
+</RelativeLayout>
